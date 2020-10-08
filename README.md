@@ -1,3 +1,11 @@
+### Dev note
+A simplified implementation of the k-anonymization algorithm, where it take any csv file with headers and compute the k-anonymization for it.
+with the following settings.  
+- all columns are quasi identifiers except the last
+- last column count as sensitive attribute
+- after computing more than one (k). ILOSS & CDM will be plotted
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
