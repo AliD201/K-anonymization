@@ -29,7 +29,12 @@ const Graph = (props) =>{
          <VictoryAxis
           dependentAxis
           // tickFormat specifies how ticks should be displayed
-          tickFormat={(y)=>{return `${y.toFixed(2)}`}}
+          tickFormat={(y)=>{
+            if(y>1000){
+              return `${Number((y/1000).toFixed(2))}k`
+            }
+            return `${Number(y.toFixed(2))}`
+          }}
         />
           <VictoryLine
           labelComponent={<VictoryTooltip />}

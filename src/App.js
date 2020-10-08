@@ -10,6 +10,7 @@ var ECheaders = [];
 
 function App() {
   const [data, setData] = useState([{}]);
+  // K-anonymization/ipums-solution-test.csv
   const [link, setlink] = useState("ipums-solution-test.csv");
   const [k, setk] = useState(2);
   const [loaded, setloaded] = useState(false);
@@ -78,6 +79,7 @@ Papa.parse(link, {
       </tr>
       </thead>]
       //clearing extra empty lines 
+      console.log(rows);
       while(rows[rows.length-1].length === 1){
           rows.pop();
       }
