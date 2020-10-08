@@ -7,7 +7,6 @@ const Graph = (props) =>{
     let k = props.ks
     //y
     let y = props.measure
-    console.log(k,y);
     let data =[];
     for (let i = 0; i < k.length; i++) {
         data.push({x:k[i],y:y[i],label:k[i]})     
