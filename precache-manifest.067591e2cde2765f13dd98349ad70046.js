@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6dad42b3dc7db23a61edda5ebdb1f6bd",
+    "revision": "72de0a736cacfd0c4287be25d796e7a9",
     "url": "/K-anonymization/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/K-anonymization/static/css/2.3c03f26f.chunk.css"
   },
   {
-    "revision": "5d21acf96f01d21ff240",
+    "revision": "7801663919a01e68885c",
     "url": "/K-anonymization/static/css/main.97495dc6.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/K-anonymization/static/js/2.c929c513.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5d21acf96f01d21ff240",
-    "url": "/K-anonymization/static/js/main.392ea71d.chunk.js"
+    "revision": "7801663919a01e68885c",
+    "url": "/K-anonymization/static/js/main.2e5866dd.chunk.js"
   },
   {
     "revision": "ec70e83be9b6f84ca417",
