@@ -5,6 +5,9 @@ with the following settings.
 - last column count as sensitive attribute
 - after computing more than one (k). ILOSS & CDM will be plotted
 
+available local data sets are:  
+- ipums-solution.csv (full dataset)
+- ipums-solution-test.csv (19 record)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
