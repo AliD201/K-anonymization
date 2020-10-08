@@ -10,7 +10,7 @@ var ECheaders = [];
 
 function App() {
   const [data, setData] = useState([{}]);
-  const [link, setlink] = useState("/ipums-solution-test.csv");
+  const [link, setlink] = useState("ipums-solution-test.csv");
   const [k, setk] = useState(2);
   const [loaded, setloaded] = useState(false);
   const [reGenerate, setreGenerate] = useState(3);
